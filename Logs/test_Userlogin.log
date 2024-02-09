@@ -1,0 +1,23 @@
+ 2024-02-07 22:40:34,298 : INFO : test_verify_url001 : 19 : test case test_verify_url001 started  
+ 2024-02-07 22:40:34,298 : INFO : test_verify_url001 : 22 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:46:04,711 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-07 22:46:04,711 : INFO : root : test_verify_url001 : 22 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:47:11,988 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-07 22:47:11,988 : INFO : root : test_verify_url001 : 22 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:48:25,086 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-07 22:48:27,088 : INFO : root : test_verify_url001 : 23 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:49:00,956 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-07 22:49:02,957 : INFO : root : test_verify_url001 : 23 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:49:04,968 : INFO : root : test_verify_url001 : 34 : test case test_verify_url001 is Passed 
+2024-02-07 22:49:04,968 : INFO : root : test_verify_url001 : 35 : Taking Screenshot 
+2024-02-07 22:49:05,103 : INFO : root : test_verify_url001 : 44 : test case test_verify_url001 Completed  
+2024-02-07 22:52:55,398 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-07 22:52:57,399 : INFO : root : test_verify_url001 : 23 : Opening browser and navigating to demnopcommerce  
+2024-02-07 22:52:59,424 : INFO : root : test_verify_url001 : 34 : test case test_verify_url001 is Passed 
+2024-02-07 22:52:59,424 : INFO : root : test_verify_url001 : 35 : Taking Screenshot 
+2024-02-07 22:52:59,552 : INFO : root : test_verify_url001 : 44 : test case test_verify_url001 Completed  
+2024-02-09 14:15:37,434 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-09 14:15:39,445 : INFO : root : test_verify_url001 : 23 : Opening browser and navigating to demnopcommerce  
+2024-02-09 14:15:41,463 : INFO : root : test_verify_url001 : 34 : test case test_verify_url001 is Passed 
+2024-02-09 14:15:41,463 : INFO : root : test_verify_url001 : 35 : Taking Screenshot 
+2024-02-09 14:15:41,603 : INFO : root : test_verify_url001 : 44 : test case test_verify_url001 Completed  
