@@ -6,7 +6,7 @@ from utilities import ExcelMethod
 
 
 class Test_UserLogin_DDT:
-    Excel_File_Path = "F:\\STUDY\\Credence IT\\nopcom_pytest_project\\Book1.xlsx"
+    Excel_File_Path = "F:\\STUDY\\Credence IT\\nopcom_pytest_project\\TestData\\Book1.xlsx"
 
     def test_UserLogin_DDT_005(self, setup):
         self.driver = setup
@@ -35,18 +35,14 @@ class Test_UserLogin_DDT:
             time.sleep(1)
             self.l.Click_Login()
 
-
-
-
-
             if (self.l.Login_Verify_Status() == "Pass" and self.expected_result == "Pass") :
-
+                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1",r,4,"Pass")
                 test_results.append("Pass")
                 time.sleep(5)
                 self.l.Click_Logout()
 
             elif (self.l.Login_Verify_Status() == "Fail" and self.expected_result == "Fail"):
-
+                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1",r,4,"Fail")
                 test_results.append("Pass")
 
             else:

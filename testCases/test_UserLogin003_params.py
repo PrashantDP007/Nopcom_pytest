@@ -39,7 +39,10 @@ class Test_Login_Params:
         #     # actual reasult is failed and expected result(DataforLogin[2]) is Fail so Test case is Pass
         test_results = []
 
-        if (self.l.Login_Verify_Status() == "Pass" and  DataForLogin[2] == "Pass" ) or (self.l.Login_Verify_Status() == "Fail" and  DataForLogin[2] == "Fail"):
+        if (self.l.Login_Verify_Status() == "Pass" and  DataForLogin[2] == "Pass" ):
+            assert True
+            test_results.append("Pass")
+        elif (self.l.Login_Verify_Status() == "Fail" and  DataForLogin[2] == "Fail"):
             assert True
             test_results.append("Pass")
         else:
@@ -54,10 +57,7 @@ class Test_Login_Params:
 
 
 
-        # if self.l.Login_Verify_Status() == "Pass":
-        #     assert True
-        # else:
-        #     assert False
+
 
 
 

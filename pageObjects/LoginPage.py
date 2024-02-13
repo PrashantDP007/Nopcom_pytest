@@ -35,7 +35,7 @@ class LoginPageClass:
 
     def Login_Verify_Status(self):
 
-        try:
+        try: # we write such code which may cause an exception like ElementNotIteracable
             self.driver.find_element(By.XPATH, self.Click_LogoutButton_XPATH) # if logout button xpath is present means login is successful
 
             return "Pass"
