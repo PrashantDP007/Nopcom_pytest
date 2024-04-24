@@ -31,3 +31,8 @@
 2024-02-09 15:14:57,784 : INFO : root : test_verify_url001 : 34 : test case test_verify_url001 is Passed 
 2024-02-09 15:14:57,784 : INFO : root : test_verify_url001 : 35 : Taking Screenshot 
 2024-02-09 15:14:57,839 : INFO : root : test_verify_url001 : 44 : test case test_verify_url001 Completed  
+2024-02-15 13:27:36,492 : INFO : root : test_verify_url001 : 19 : test case test_verify_url001 started  
+2024-02-15 13:27:38,493 : INFO : root : test_verify_url001 : 23 : Opening browser and navigating to demnopcommerce  
+2024-02-15 13:27:40,531 : INFO : root : test_verify_url001 : 34 : test case test_verify_url001 is Passed 
+2024-02-15 13:27:40,531 : INFO : root : test_verify_url001 : 35 : Taking Screenshot 
+2024-02-15 13:27:40,826 : INFO : root : test_verify_url001 : 44 : test case test_verify_url001 Completed  
