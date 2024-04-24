@@ -1,0 +1,7 @@
+1) git init
+2) git remote add origin https://github.com/PrashantDP007/Nopcom_pytest.git
+3) git config --global.user-name ""
+4) git config --global.user-email ""
+
+
+5) git status
