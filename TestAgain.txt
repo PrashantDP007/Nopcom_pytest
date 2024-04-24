@@ -5,3 +5,8 @@
 
 
 5) git status
+6) git add -A
+7) git commit -m "comments"
+8) git push -u origin master 
+
+9) git pull
