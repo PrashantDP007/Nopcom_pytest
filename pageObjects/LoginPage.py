@@ -40,7 +40,6 @@ class LoginPageClass:
 
             return "Pass"
 
-
         except:
             return "Fail"
 

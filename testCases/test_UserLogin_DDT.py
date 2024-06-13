@@ -36,13 +36,13 @@ class Test_UserLogin_DDT:
             self.l.Click_Login()
 
             if (self.l.Login_Verify_Status() == "Pass" and self.expected_result == "Pass") :
-                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1",r,4,"Pass")
+                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1", r, 4, "Pass")
                 test_results.append("Pass")
                 time.sleep(5)
                 self.l.Click_Logout()
 
             elif (self.l.Login_Verify_Status() == "Fail" and self.expected_result == "Fail"):
-                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1",r,4,"Fail")
+                ExcelMethod.writeData(self.Excel_File_Path,"Sheet1", r, 4, "Fail")
                 test_results.append("Pass")
 
             else:
@@ -56,7 +56,6 @@ class Test_UserLogin_DDT:
             assert False
         else:
             print("Test Case test_UserLogin_DDT_005 is Passed ")
-
             assert True
 
 

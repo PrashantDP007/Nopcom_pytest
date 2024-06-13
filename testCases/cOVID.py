@@ -6,7 +6,7 @@ from utilities import ExcelMethod
 
 class Test_Covid_Count:
     driver = webdriver.Chrome()
-    driver.get("https://www.mygov.in/covid-19/")
+    driver.get("https://www.mygov.in/covid-19-archive")
     driver.maximize_window()
     excel_file_path = "F:\\STUDY\\Credence IT\\nopcom_pytest_project\\TestData\\Book1.xlsx"
 
@@ -34,6 +34,7 @@ class Test_Covid_Count:
                     row_num += 1
             except:
                 pass
+
 
 
 
